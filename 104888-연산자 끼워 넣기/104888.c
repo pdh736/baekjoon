@@ -62,5 +62,6 @@ int main() {
 	dfs(3, num[0]);
 	printf("%d\n",max);
 	printf("%d\n", min);
+	fclose(fp);
 	return 0;
 }

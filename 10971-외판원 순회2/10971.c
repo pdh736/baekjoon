@@ -48,6 +48,6 @@ int main() {
 	}
 
 	printf("%d\n",min);
-
+	fclose(fp);
 	return 0;
 }
